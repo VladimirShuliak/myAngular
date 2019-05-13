@@ -1,8 +1,8 @@
 package com.example.controllers;
 
-import com.example.controllers.entities.User;
+import com.example.entities.User;
 import org.springframework.web.bind.annotation.*;
-import com.example.controllers.repositories.UserRepository;
+import com.example.repositories.UserRepository;
 
 import java.util.List;
 

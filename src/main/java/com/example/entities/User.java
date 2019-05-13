@@ -1,8 +1,7 @@
-package com.example.controllers.entities;
+package com.example.entities;
 
 
-import lombok.Getter;
-import lombok.ToString;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,8 +9,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Getter
+@Setter
 @ToString
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
 
     @Id
@@ -20,10 +22,10 @@ public class User {
     private String name;
     private String email;
 
-    public User() {
-        this.name = "";
-        this.email = "";
-    }
+//    public User() {
+//        this.name = "";
+//        this.email = "";
+//    }
 
     public User(String name, String email) {
         this.name = name;

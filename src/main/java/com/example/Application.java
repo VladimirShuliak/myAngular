@@ -1,7 +1,7 @@
-package com.example.controllers;
+package com.example;
 
-import com.example.controllers.entities.User;
-import com.example.controllers.repositories.UserRepository;
+import com.example.entities.User;
+import com.example.repositories.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
